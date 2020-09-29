@@ -1,7 +1,7 @@
 <p align="center"> 
   <img width= '400' src="https://media-exp1.licdn.com/dms/image/C4E1BAQHsufRVzp5cnQ/company-background_10000/0?e=2159024400&v=beta&t=eenhnaynP2rpYHnCWK4BBz5iCRw0k_wbzxoOtgapTdw">
 </p>
-<h2 align="center"><strong>JavaScript Completo ES6+<strong></h2><br>
+<h2 align="center"><strong>JavaScript Completo ES6+</strong></h2><br>
 
 ## 📚 Sobre
 
@@ -16,6 +16,11 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 
 - [x] Introduçao (linguagem e  configuração do ambiente)
 - [ ] JS para iniciantes (dados, variáveis, operadores, boolean, funções, arrays e mais)
+    - [x] Variáveis
+    - [x] Tipos de Dados 
+    - [ ] Números e Operadores
+    - [ ] Boolean e Condicionais
+    - [ ] Funções 
 - [ ] DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
 - [ ] Objetos (constructor functions, prototype, Array, Math, String e mais)
 - [ ] Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
