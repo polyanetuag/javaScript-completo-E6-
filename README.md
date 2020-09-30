@@ -18,8 +18,8 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 - [ ] JS para iniciantes (dados, variáveis, operadores, boolean, funções, arrays e mais)
     - [x] Variáveis
     - [x] Tipos de Dados 
-    - [ ] Números e Operadores
-    - [ ] Boolean e Condicionais
+    - [x] Números e Operadores
+    - [x] Boolean e Condicionais
     - [ ] Funções 
 - [ ] DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
 - [ ] Objetos (constructor functions, prototype, Array, Math, String e mais)
@@ -32,6 +32,18 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 - [ ] Projeto Final (Refatoracão do projeto utilizando classes; Praticando com Git, ESLint e mais)
 - [ ] Slide (Criação do plugin de slide)
 
+
+<!-- <details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details> -->
 
 ---
 
