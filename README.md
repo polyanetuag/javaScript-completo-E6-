@@ -15,7 +15,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 ## ⏱ Cronograma 
 
 - [x] Introduçao (linguagem e  configuração do ambiente)
-- [ ] JS para iniciantes (dados, variáveis, operadores, boolean, funções, arrays e mais)
+- JS para iniciantes (dados, variáveis, operadores, boolean, funções, arrays e mais)
     - [x] Variáveis
     - [x] Tipos de Dados 
     - [x] Números e Operadores
@@ -44,6 +44,10 @@ print("hello world!")
 
 </p>
 </details> -->
+
+
+
+
 
 ---
 
