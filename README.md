@@ -14,23 +14,29 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 
 ## ⏱ Cronograma 
 
-- [x] Introduçao (linguagem e  configuração do ambiente)
-- JS para iniciantes (dados, variáveis, operadores, boolean, funções, arrays e mais)
+- Introduçao (linguagem e  configuração do ambiente)
+- JS para iniciantes
     - [x] Variáveis
     - [x] Tipos de Dados 
     - [x] Números e Operadores
     - [x] Boolean e Condicionais
-    - [ ] Funções 
-- [ ] DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
-- [ ] Objetos (constructor functions, prototype, Array, Math, String e mais)
-- [ ] Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
-- [ ] JavaScript Assíncrono (Promisses, Fetch(novo AJAX), JSON, API, HTTP, Async/Await e mais)
-- [ ] Classes (class, constructor, get, set, extends e mais)
-- [ ] Mais JS ( IIFE, factory function, clojures, debbugging, destructuring, rest, iterables)
-- [ ] Regular Expression (Principais padrões e métodos)
-- [ ] Automação Front End (CLI, NPM, ESLint, Webpack, Babel e Git)
-- [ ] Projeto Final (Refatoracão do projeto utilizando classes; Praticando com Git, ESLint e mais)
-- [ ] Slide (Criação do plugin de slide)
+    - [x] Funções 
+    - [ ] Objetos
+    - [ ] Tudo é objeto
+    - [ ] Arrays e Loops
+    - [ ] Atribuição e Ternário
+    - [ ] Escopo
+
+- DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
+- Objetos (constructor functions, prototype, Array, Math, String e mais)
+- Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
+- JavaScript Assíncrono (Promisses, Fetch(novo AJAX), JSON, API, HTTP, Async/Await e mais)
+- Classes (class, constructor, get, set, extends e mais)
+- Mais JS ( IIFE, factory function, clojures, debbugging, destructuring, rest, iterables)
+- Regular Expression (Principais padrões e métodos)
+- Automação Front End (CLI, NPM, ESLint, Webpack, Babel e Git)
+- Projeto Final (Refatoracão do projeto utilizando classes; Praticando com Git, ESLint e mais)
+- Slide (Criação do plugin de slide)
 
 
 <!-- <details><summary>CLICK ME</summary>
