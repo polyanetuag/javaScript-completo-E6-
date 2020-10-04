@@ -21,7 +21,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
     - [x] Números e Operadores
     - [x] Boolean e Condicionais
     - [x] Funções 
-    - [ ] Objetos
+    - [x] Objetos
     - [ ] Tudo é objeto
     - [ ] Arrays e Loops
     - [ ] Atribuição e Ternário
