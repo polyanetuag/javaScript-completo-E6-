@@ -22,7 +22,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
     - [x] Boolean e Condicionais
     - [x] Funções 
     - [x] Objetos
-    - [ ] Tudo é objeto
+    - [x] Tudo é objeto
     - [ ] Arrays e Loops
     - [ ] Atribuição e Ternário
     - [ ] Escopo
