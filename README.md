@@ -23,7 +23,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
     - [x] Funções 
     - [x] Objetos
     - [x] Tudo é objeto
-    - [ ] Arrays e Loops
+    - [x] Arrays e Loops
     - [ ] Atribuição e Ternário
     - [ ] Escopo
 
@@ -42,11 +42,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 <!-- <details><summary>CLICK ME</summary>
 <p>
 
-#### yes, even hidden code blocks!
 
-```python
-print("hello world!")
-```
 
 </p>
 </details> -->
