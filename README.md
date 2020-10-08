@@ -25,7 +25,7 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
     - [x] Tudo é objeto
     - [x] Arrays e Loops
     - [x] Atribuição e Ternário
-    - [ ] Escopo
+    - [x] Escopo
 
 - DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
 - Objetos (constructor functions, prototype, Array, Math, String e mais)
