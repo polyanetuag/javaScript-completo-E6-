@@ -28,6 +28,8 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
     - [x] Escopo
 
 - DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
+  - [x] O que é DOM
+  
 - Objetos (constructor functions, prototype, Array, Math, String e mais)
 - Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
 - JavaScript Assíncrono (Promisses, Fetch(novo AJAX), JSON, API, HTTP, Async/Await e mais)
