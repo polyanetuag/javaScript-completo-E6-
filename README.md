@@ -5,7 +5,7 @@
 
 ## 📚 Sobre
 
-O curso *javaScript Completo ES6* irá abordar tudo o que é necessário para dominar o JavaScript. Vai do básico ao avançado e ao final dele você terá uma compreensão total da linguagem, dos seus principais métodos e da sua sintaxe.
+O curso **javaScript Completo ES6** irá abordar tudo o que é necessário para dominar o JavaScript. Vai do básico ao avançado e ao final dele você terá uma compreensão total da linguagem, dos seus principais métodos e da sua sintaxe.
 
  O foco é no aprendizado da linguagem, mas o principal local de aplicação será na web, através de manipulações do DOM e requisições via Fetch API.
 
@@ -29,6 +29,13 @@ Esse não é um curso para quem deseja algo rápido, mas sim para quem deseja do
 
 - DOM para iniciantes (início do projeto, manipular o DOM, eventos e mais)
   - [x] O que é DOM
+  - [x] Seleção de Elementos
+  - [ ] ForEach e Arrow Function
+  - [ ] Classes e Atributos
+  - [ ] Dimensões e Distâncias
+  - [ ] Eventos
+  - [ ] Transversing e Manipulação
+  - [ ] Navegação por Tabs
   
 - Objetos (constructor functions, prototype, Array, Math, String e mais)
 - Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
