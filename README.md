@@ -44,7 +44,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 
   - [x] O que é DOM
   - [x] Seleção de Elementos
-  - [ ] ForEach e Arrow Function
+  - [x] ForEach e Arrow Function
   - [ ] Classes e Atributos
   - [ ] Dimensões e Distâncias
   - [ ] Eventos
