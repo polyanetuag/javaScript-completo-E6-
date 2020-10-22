@@ -1,5 +1,5 @@
 
-<h2 align="center" style="color:#8745ec; font-size:28px;"><strong>JavaScript Completo ES6+</strong></h2><br>
+<h1 align="center" style="color:#8745ec"><strong>JavaScript Completo ES6+</strong></h1><br>
 
 
 <h2 style="color:#b38cee">📚 Sobre</h2>
