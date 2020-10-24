@@ -47,7 +47,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] ForEach e Arrow Function
   - [x] Classes e Atributos
   - [x] Dimensões e Distâncias
-  - [ ] Eventos
+  - [x] Eventos
   - [ ] Transversing e Manipulação
   - [ ] Navegação por Tabs
 </p>
