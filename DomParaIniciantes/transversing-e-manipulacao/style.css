@@ -1,0 +1,224 @@
+body, h1, h2, ul, li, p, dt, dd, dl {
+  margin: 0px;
+  padding: 0px;
+}
+
+html.textomaior {
+  font-size: 150%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: #faf6ed;
+  color: #222;
+  -webkit-font-smooting: antialiased;
+  display: grid;
+  grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
+}
+
+.menu {
+  grid-column: 3/5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient( 45deg,  rgba(255,78,78,1)  24.3%, rgba(255,157,129,1)78.3% );;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.menu li a {
+  display: block;
+  padding: 20px 10px;
+  margin-right: 10px;
+  color: #222;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+}
+
+.grid-section {
+  grid-column: 2/4;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 90px 300px 1fr;
+  grid-gap: 20px;
+}
+
+.titulo {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 6rem;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  grid-column: 1/4;
+}
+
+.animais h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-bottom: 1rem;
+  color: rgba(255,78,78,1);
+}
+
+.animais h2::before{
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-right: 10px;
+  background: #4567;
+}
+
+.animais p {
+  font-family: Helvetica, Arial;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.animais-lista {
+  height: 370px;
+  overflow-y: scroll;
+  grid-column: 2;
+}
+
+/* ====== Estilizar scroll dentro da seção animais-lista ======== */
+
+/*tamanho do scroll*/
+.animais-lista::-webkit-scrollbar {
+  width: 18px;
+}
+
+/*barra de rolagem*/
+.animais-lista::-webkit-scrollbar-thumb {
+  background: #4567;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+}
+
+/*fundo da barra*/
+.animais-lista::-webkit-scrollbar-track {
+  background: #faf6ed;
+}
+
+.animais-descricao {
+  grid-column: 3;
+}
+
+.animais-descricao section {
+  margin-bottom: 3rem;
+}
+
+/*=============== FAQ ==============*/
+
+.faq-lista {
+  grid-column: 2/4;
+}
+
+.faq-lista dt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  color: rgba(255,78,78,1);
+}
+
+.faq-lista dt::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background: #4567;
+}
+
+.faq-lista dd {
+  font-family: Helvetica, Arial;
+  margin-bottom: .5rem;
+  margin-left: 30px;
+}
+
+/*================ CONTATO ==============*/
+
+.mapa {
+  grid-column: 2;
+}
+
+.dados {
+  grid-column: 3;
+}
+
+.dados li {
+  margin-bottom: 1rem;
+  font-family: Helvetica, Arial;
+}
+
+.dados li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 10px;
+  background: #4567;
+}
+
+/*================ FOOTER ==============*/
+
+.copy {
+  grid-column: 3/5;
+  margin-bottom: 2rem;
+  background: rgba(255,78,78,1);
+}
+
+.copy p {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+/*================= RESPONSIVIDADE ================*/
+
+@media (max-width: 700px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+  .menu,.grid-section, .copy {
+    grid-column: 1;
+  }
+  .grid-section {
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+  }
+  .animais-lista {
+    grid-column: 1;
+  }
+  .faq-lista, .dados, .mapa {
+    grid-column: 1/3;
+  }
+  .grid-section h1 {
+    font-size: 3rem;
+  }
+  .menu {
+    margin-top: 0px;
+  }
+  .copy {
+    margin-bottom: 0px;
+  }
+}
