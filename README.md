@@ -48,7 +48,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Classes e Atributos
   - [x] Dimensões e Distâncias
   - [x] Eventos
-  - [ ] Transversing e Manipulação
+  - [x] Transversing e Manipulação
   - [ ] Navegação por Tabs
 </p>
 </details> 
