@@ -49,7 +49,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Dimensões e Distâncias
   - [x] Eventos
   - [x] Transversing e Manipulação
-  - [ ] Navegação por Tabs
+  - [x] Navegação por Tabs
 </p>
 </details> 
 
