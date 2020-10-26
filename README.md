@@ -51,7 +51,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Transversing e Manipulação
   - [x] Navegação por Tabs
   - [x] Accordion List
-  - [ ] Scroll Suave - link interno
+  - [x] Scroll Suave - link interno
 </p>
 </details> 
 
