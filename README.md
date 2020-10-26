@@ -52,6 +52,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Navegação por Tabs
   - [x] Accordion List
   - [x] Scroll Suave - link interno
+  - [x] Animação ao Scroll
 </p>
 </details> 
 
