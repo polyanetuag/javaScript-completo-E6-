@@ -59,7 +59,16 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Objetos</summary>
 <p>
 
-  
+  - [x] Constructor Function
+  - [ ] Prototype
+  - [ ] Native, Host e User
+  - [ ] String
+  - [ ] Number e Math
+  - [ ] Array
+  - [ ] Array e Iteração
+  - [ ] Function
+  - [ ] Object
+
 </p>
 </details> 
 
