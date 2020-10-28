@@ -60,7 +60,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <p>
 
   - [x] Constructor Function
-  - [ ] Prototype
+  - [x] Prototype
   - [ ] Native, Host e User
   - [ ] String
   - [ ] Number e Math
