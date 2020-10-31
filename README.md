@@ -63,7 +63,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Prototype
   - [x] Native, Host e User
   - [x] String
-  - [ ] Number e Math
+  - [x] Number e Math
   - [ ] Array
   - [ ] Array e Iteração
   - [ ] Function
