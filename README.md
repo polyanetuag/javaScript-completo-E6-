@@ -65,7 +65,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] String
   - [x] Number e Math
   - [x] Array
-  - [ ] Array e Iteração
+  - [x] Array e Iteração
   - [ ] Function
   - [ ] Object
 
