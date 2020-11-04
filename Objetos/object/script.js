@@ -111,74 +111,77 @@ moto3.velocidade = 200;
 console.log(moto3.velocidade);                // Velocidade 200
 
 
-// =============== OBJECT ================
+// =============== OBJECT.GETOWNPROPERTYDESCRIPTORS(OBJ) ================
+//Lista todos os métodos e propriedades de um objeto, com as suas devidas configurações.
+
+console.log(Object.getOwnPropertyDescriptors(moto3));
+
+//Exemplos
+Object.getOwnPropertyDescriptors(Array);                     // Lista com métodos e propriedades e Array
+
+Object.getOwnPropertyDescriptors(Array.prototype);          // Lista com métodos e propriedades do protótipo de Array
+
+Object.getOwnPropertyDescriptor(window, 'innerHeight');     // Puxa de uma única propriedade
 
 
+// =============== OBJECT.KEYS(OBJ), OBJECT.VALUES(OBJ) OBJECT.ENTRIES(OBJ) ================
+
+Object.keys(Array);                   // [] vazia, pois não possui propriedades enumeráveis
 
 
-
-// =============== OBJECT ================
-
-
-
-
-
-// =============== OBJECT ================
-
-
-
-
+const veiculo2 = {
+  marca: 'Ford',
+  ano: 2018,
+}
+Object.keys(veiculo2);          //retorna uma array com as chaves de todas as propriedades diretas e enumeráveis do objeto
+// ['marca', 'ano']
+Object.values(veiculo2);        //retorna uma array com os valores do objeto
+// ['Ford', 2018]
+Object.entries(veiculo2);       //retorna uma array com array's contendo a chave e o valor(array dentro de uma array)
+// [['marca', 'Ford'], ['ano', 2018]]
 
 
-// =============== OBJECT ================
+// =============== OBJECT.GETOWNPROPERTYNAMES(OBJ) ================
+//etorna uma array com todas as propriedades diretas do objeto (não retorna as do protótipo).
+
+Object.getOwnPropertyNames(Array);
+// ['length', 'name', 'prototype', 'isArray', 'from', 'of']
+
+Object.getOwnPropertyNames(Array.prototype);
+// [..., 'filter', 'map', 'every', 'some', 'reduce', ...]
+
+console.log(Object.getOwnPropertyNames(moto2));
+// ['rodas']
 
 
+// =============== OBJECT.GETPROTOTYPEOF() E OBJECT.IS() ================
+
+const frutas = ['Banana', 'Pêra']
+
+//Object.getPrototypeOf(), retorna o protótipo do objeto
+Object.getPrototypeOf(frutas);          //retorna o protótipo de array
+Object.getPrototypeOf('');              // String
+
+const frutas1 = ['Banana', 'Pêra'];
+const frutas2 = ['Banana', 'Pêra'];
+
+//Object.is(obj1, obj2) verifica se os objetos são iguais e retorna true ou false.
+Object.is(frutas1, frutas2);            // false
 
 
+// =============== OBJECT.FREEZE(), OBJECT.SEAL(), OBJECT.PREVENTEXTENSIONS() ================
 
-// =============== OBJECT ================
+const caminhao = {
+  marca: 'Ford',
+  ano: 2018,
+}
+Object.freeze(caminhao);          //impede qualquer mudança nas propriedades
+Object.seal(caminhao);                //previne a adição de novas propriedades e impede que as atuais sejam deletadas
+Object.preventExtensions(caminhao);   // previne a adição de novas propriedades.
 
-
-
-
-
-// =============== OBJECT ================
-
-
-
-
-
-// =============== OBJECT ================
-
-
+//para verificar se os métodos estão aplicados 
+Object.isFrozen(caminhao);        // true
+Object.isSealed(caminhao);        // true
+Object.isExtensible(caminhao);    // false
 
 
-
-// =============== OBJECT ================
-
-
-
-
-
-// =============== OBJECT ================
-
-
-
-
-// =============== OBJECT ================
-
-
-
-
-
-// =============== OBJECT ================
-
-
-
-
-
-// =============== OBJECT ================
-
-
-
-// =============== OBJECT ================
