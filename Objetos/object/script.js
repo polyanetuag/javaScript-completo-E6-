@@ -185,3 +185,79 @@ Object.isSealed(caminhao);        // true
 Object.isExtensible(caminhao);    // false
 
 
+// =============== PROPRIEDADES E MÉTODOS DO PROTÓTIPO ================
+//Já que tudo em JavaScript é objeto, as propriedades abaixo estão disponíveis em todos os objetos criados a partir de funções construtoras. 
+//{}.constructor retorna a função construtora do objeto.
+
+const Frutas = ['Banana', 'Uva'];
+Frutas.constructor;               // Array
+
+const frase = 'Isso é uma String';
+frase.constructor;                // String
+
+
+// =============== {}.HASOWNPROPERTY('PROP') E {}.PROPERTYISENUMERABLE('PROP') ================
+
+const frutas3 = ['Banana', 'Uva'];
+//Verifica se possui a propriedade e retorna true. 
+//A propriedade deve ser direta do objeto e não do protótipo.
+
+frutas3.hasOwnProperty('map');              // false (pois não possui a propriedade)
+Array.hasOwnProperty('map');                // false
+Array.prototype.hasOwnProperty('map');      // true (é uma propriedade do array.prototype)
+
+//O {}.propertyIsEnumerable() verifica se a propriedade é enumerável.
+Array.prototype.propertyIsEnumerable('map');  // false
+window.propertyIsEnumerable('innerHeight');   // true (propriedade do window)
+
+
+// =============== {}.ISPROTOTYPEOF(VALOR) ================
+//Verifica se é o protótipo do valor passado.
+
+const frutasCesta = ['Banana', 'Uva'];
+
+Array.prototype.isPrototypeOf(frutasCesta);  // true
+
+
+// =============== {}.TOSTRING() ================
+//Retorna o tipo do objeto. 
+//O problema é toString() ser uma função dos protótipos de Array, String e mais. 
+//Por isso é comum utilizarmos a função direto do Object.prototype.toString.call(valor).
+
+const frutasCesta2 = ['Banana', 'Uva'];
+frutasCesta2.toString();                          // 'Banana,Uva'
+typeof frutasCesta2;                              // object
+console.log(Object.prototype.toString.call(frutasCesta2));     // [object Array]
+
+const texto = 'Uma String';
+texto.toString();                           // 'Uma String'
+typeof texto;                              // string
+console.log(Object.prototype.toString.call(texto)) ; // [object String]
+
+const veiculo3 = {marca: 'Ford'};
+veiculo3.toString();                        // [object Object]
+typeof veiculo3;                            // object
+console.log(Object.prototype.toString.call(veiculo3)); // [object Object]
+
+const li = document.querySelectorAll('li');
+typeof li;                                    // object
+console.log(Object.prototype.toString.call(li)); // [object NodeList]
+
+
+// =============== OBJECT ================
+
+
+
+
+
+// =============== OBJECT ================
+
+
+
+
+
+// =============== OBJECT ================
+
+
+
+// =============== OBJECT ================
