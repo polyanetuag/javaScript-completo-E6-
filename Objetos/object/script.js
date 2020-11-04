@@ -244,20 +244,52 @@ typeof li;                                    // object
 console.log(Object.prototype.toString.call(li)); // [object NodeList]
 
 
-// =============== OBJECT ================
+// =============== EXERCÍCIOS ================
+
+// Crie uma função que verifique
+// corretamente o tipo de dado
+
+function verificarTipoDado(dado) {
+  return Object.prototype.toString.call(dado)
+}
+console.log(verificarTipoDado([]))        // retorna object Array
+console.log(verificarTipoDado({}))        // retorna object Object
+console.log(verificarTipoDado(''))        // retorna object String
+console.log(verificarTipoDado(2))        // retorna object Number
 
 
+// Crie um objeto quadrado com
+// a propriedade lados e torne
+// ela imutável
+
+const quadrado = {}
+
+Object.defineProperties(quadrado, {
+  lados: {
+    value: 4,
+    enumerable: true,
+  }
+})
+
+quadrado.lados = 5            // não muda o valor (por padrão, as propriedades são falses)
+console.log(quadrado)
 
 
+// Previna qualquer mudança
+// no objeto abaixo
+const configuracao = {
+  width: 800,
+  height: 600,
+  background: '#333'
+}
 
-// =============== OBJECT ================
+Object.freeze(configuracao);            //não permite nenhuma mudança ou até mesmo deletar(abaixo do que foi congelado)
 
 
+// Liste o nome de todas
+// as propriedades do
+// protótipo de String e Array
 
+console.log(Object.getOwnPropertyNames(String.prototype))
+console.log(Object.getOwnPropertyNames(Array.prototype))
 
-
-// =============== OBJECT ================
-
-
-
-// =============== OBJECT ================
