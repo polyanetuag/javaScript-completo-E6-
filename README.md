@@ -67,7 +67,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Array
   - [x] Array e Iteração
   - [x] Function
-  - [ ] Object
+  - [x] Object
 
 </p>
 </details> 
