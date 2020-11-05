@@ -14,11 +14,7 @@
     </script>
   </head>
   <body>
-
-    <div data-cor="azul" data-width="500">Uma Div</div>
-    <span data-anime="left" data-tempo="2000">Um Span</span>
-
-    <nav class="menu js-menu">
+    <nav class="menu" data-menu="suave">
       <ul>
         <li><a href="#Animais">Animais</a></li>
         <li><a href="#faq">FAQ</a></li>
@@ -27,12 +23,9 @@
       </ul>
     </nav>
 
-
-    
-
-    <section class="grid-section animais js-scroll" id="animais ">
+    <section class="grid-section animais" data-anime="scroll" id="animais ">
       <h1 class="titulo">Animais Fantásticos</h1>
-      <ul class="animais-lista js-tabmenu">
+      <ul class="animais-lista" data-tab="menu">
         <li>
           <img src="assets/abelha.jpg" alt="Abelha" />
         </li>
@@ -62,7 +55,7 @@
         </li>
       </ul>
 
-      <div class="animais-descricao js-tabcontent">
+      <div class="animais-descricao" data-tab="content">
         <section>
           <h2>Abelha</h2>
           <p>
@@ -83,7 +76,7 @@
             presença das abelhas melíferas.
           </p>
         </section>
-        <section>
+        <section data-anime="show-down">
           <h2>Beija-Flor</h2>
           <p>
             Os beija-flores são aves de pequeno porte, que medem em média de 6 a
@@ -105,7 +98,7 @@
             média, 12 anos e seu tempo de incubação é de 13 a 15 dias.
           </p>
         </section>
-        <section>
+        <section data-anime="show-right">
           <h2>Coruja das Neves</h2>
           <p>
             A coruja-das-neves mede entre 53 e 65 cm de comprimento, com uma
@@ -300,9 +293,9 @@
       </div>
     </section>
 
-    <section class="grid-section faq js-scroll" id="faq">
+    <section class="grid-section faq" data-anime="scroll"  id="faq">
       <h1 class="titulo">FAQ</h1>
-      <dl class="faq-lista js-accordion" >
+      <dl class="faq-lista" data-anime="accordion" >
         <dt>Qual a idade dos animais?</dt>
         <dd>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex aperiam
@@ -337,7 +330,7 @@
       </dl>
     </section>
 
-    <section class="grid-section contato js-scroll" id="contato">
+    <section class="grid-section contato" data-anime="scroll"  id="contato">
       <h1 class="titulo">Contato</h1>
       <div class="mapa">
         <img src="assets/mapa.png" alt="Mapa" />
