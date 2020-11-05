@@ -75,6 +75,12 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Efeitos no DOM</summary>
 <p>
 
+  - [x] Dataset
+  - [ ] Modules
+  - [ ] Event Bublle
+  - [ ] SetTimeout e setInterval
+  - [ ] Date Object
+  - [ ] Forms
   
 </p>
 </details> 
