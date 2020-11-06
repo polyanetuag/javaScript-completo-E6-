@@ -76,7 +76,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <p>
 
   - [x] Dataset
-  - [ ] Modules
+  - [x] Modules
   - [ ] Event Bublle
   - [ ] SetTimeout e setInterval
   - [ ] Date Object
