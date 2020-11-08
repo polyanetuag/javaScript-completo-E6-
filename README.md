@@ -78,7 +78,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Dataset
   - [x] Modules
   - [x] Modal
-  - [ ] Tooltip
+  - [x] Tooltip
   - [ ] Event Bublle
   - [ ] SetTimeout e setInterval
   - [ ] Date Object
