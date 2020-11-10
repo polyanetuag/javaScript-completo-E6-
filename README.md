@@ -80,7 +80,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Modal
   - [x] Tooltip
   - [x] Dropdown Menu
-  - [ ] Event Bublle
+  - [x] Event Bublle
   - [ ] SetTimeout e setInterval
   - [ ] Date Object
   - [ ] Forms
