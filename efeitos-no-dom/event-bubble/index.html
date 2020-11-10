@@ -1,0 +1,54 @@
+<html>
+<body>
+  <button>Clique</button>
+  <section>Front End</section>
+</body>
+</html>
+
+<script>
+const btn = document.querySelector('button');
+const section = document.querySelector('section');
+const html = document.documentElement;
+
+function handleClick(event) {
+  event.preventDefault();
+  section.classList.add('active');
+  html.addEventListener('click', handleOutside);
+}
+
+function handleOutside(event) {
+  section.classList.remove('active');
+}
+
+btn.addEventListener('click', handleClick);
+
+btn.click();
+</script>
+
+<!-- Passo a passo 
+
+1.Execução do script é iniciada.
+2.Hoisting: constante btn é colocada na memória, nenhum valor é atribuído.
+3.Hoisting: constante section é colocada na memória, nenhum valor é atribuído.
+4.Hoisting: constante html é colocada na memória, nenhum valor é atribuído.
+5.Hoisting: função handleClick é colocada na memória, o corpo da função é atribuído.
+6.Hoisting: função handleOutside é colocada na memória, o corpo da função é atribuído.
+7.Execução: método querySelector() executado. Retorno atribuído à btn
+8.Execução: método querySelector() executado. Retorno atribuído à section.
+9.Execução: valor da propriedade documentElement atribuída à html
+10.Execução: método addEventListener() executado. função handleClick colocada na Web Api linkada ao evento click do elemento btn.
+11.Evento: evento click() de btn disparado.
+12.Evento de Clique: função handleClick() iniciada e colocada na Call Stack.
+13.Execução de handleClick: método preventDefault() executado, previnindo comrpotamento padrão do button.
+14.Execução de handleClick: método add() de classList executado, adiciona a classe active ao elemento section na memória.
+15.Execução de handleClick: método addEventListener() executado. função handleOutside colocada na Web Api linkada ao evento click do elemento html.
+16.Execução de handleClick: handleClick finalizado. Inicia a fase de Bubble.
+17.Bubble: verifica se o elemento parent (body) possui um evento de clique. Não possui, segue para o próximo.
+18.Bubble: verifica se o elemento parent (html) possui um evento de clique. Possui, executa a função handleOutside.
+19.Execução de handleOutside: método remove() de classList executado, remove a classe active ao elemento section na memória.
+20.Execução de handleOutside: execução finalizada. Continua a fase de bubble.
+21.Bubble: verifica se o elemento parent (document) possui um evento de clique. Não possui segue para o próximo.
+22.Bubble: verifica se o elemento parent (window) possui um evento de clique. Não possui, finaliza a fase de bubble.
+23.Script finalizado.
+
+-->
