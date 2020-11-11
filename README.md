@@ -82,7 +82,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Dropdown Menu
   - [x] Event Bublle
   - [x] Clickoutside
-  - [ ] SetTimeout e setInterval
+  - [x] SetTimeout e setInterval
   - [ ] Date Object
   - [ ] Forms
   
