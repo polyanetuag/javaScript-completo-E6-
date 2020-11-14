@@ -85,7 +85,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] SetTimeout e setInterval
   - [x] Menu Mobile
   - [x] Anima Números
-  - [ ] Date Object
+  - [x] Date Object
   - [ ] Forms
   
 </p>
