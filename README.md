@@ -84,6 +84,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Clickoutside
   - [x] SetTimeout e setInterval
   - [x] Menu Mobile
+  - [x] Anima Números
   - [ ] Date Object
   - [ ] Forms
   
