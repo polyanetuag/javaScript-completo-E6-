@@ -12,7 +12,7 @@ export default function initAnimacaoScroll() {
       const isSectionVisible = (sectionTop - windowMetade) < 0;       // para animar antes de chegar ao topo
       if(isSectionVisible) {
         section.classList.add('ativo');
-      } else {
+      } else if(section.classList.contains('ativo')) {      // para evitar o disparo desnecessário da função
         section.classList.remove('ativo');
       }
     })
