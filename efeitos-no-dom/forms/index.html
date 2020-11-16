@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS</title>
+</head>
+<body>
+
+  <style>
+    label{
+      display: block;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      margin-bottom: .5rem;
+      margin-top: 1rem;
+    }
+
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      box-sizing: border-box;
+      padding: .5rem;
+      border: 2px solid gray;
+      font-size: 1rem;
+      margin-bottom: .5rem;
+    }
+
+    textarea {
+      height: 150px;
+    }
+
+
+
+  </style>
+
+
+  <form name="contato" id="contato">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome">
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <label for="mensagem">Mensagem</label>
+    <textarea  name="mensagem" id="mensagem"></textarea>
+  </form>
+  <span class="texto"></span>
+<script>
+  const contato = document.querySelector('#contato');
+  const texto = document.querySelector('.texto');
+  //console.log(contato.elements.mensagem);
+  //console.log(document.forms[0]) ;      // forma + rápida
+
+  function handleKeyUp(event) {
+    console.log(event.target.value);
+    texto.innerHTML = event.target.value;
+  }
+  contato.addEventListener('change', handleKeyUp);    // para diversos tipos de métodos(comando por voz, keyup, ect - só aparece quando ocorre a mudança )
+
+</script>
+
+</body>
+</html>
