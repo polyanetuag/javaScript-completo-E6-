@@ -86,7 +86,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Menu Mobile
   - [x] Anima Números
   - [x] Date Object
-  - [ ] Forms
+  - [x] Forms
   
 </p>
 </details> 
