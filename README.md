@@ -88,7 +88,8 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Date Object
   - [x] Forms
   - [x] Button Creator HTML e CSS
-  - [ ] Button Creator javaScript
+  - [x] Button Creator javaScript
+  - [ ] LocalStorage 
   
 </p>
 </details> 
