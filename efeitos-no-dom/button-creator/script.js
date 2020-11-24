@@ -44,9 +44,29 @@ function handleChange(event) {                // irá lidar com as mudanças
   const value = event.target.value;
 
   handleStyle[name](value);
+  saveValues(name, value);
   showCss();
-
 }
+
+function saveValues(name, value) {      // salvar os dados no navegador 
+  localStorage[name] = value; 
+}
+
+function setValues() {                        // setar os valores 
+  const properties = Object.keys(localStorage);
+
+  properties.forEach(propertie => {
+    if(handleStyle[propertie]){
+      handleStyle[propertie](localStorage[propertie]);
+      controles.elements[propertie].value = localStorage[propertie];
+    }
+    
+  })
+  showCss();
+}
+setValues();
+
+
 
 function showCss() {                        // para aparecer em tela os valores de css
   cssText.innerHTML = '<span>' + btn.style.cssText.split('; ').join(';</span><span>');
