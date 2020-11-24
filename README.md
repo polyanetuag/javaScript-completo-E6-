@@ -89,7 +89,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Forms
   - [x] Button Creator HTML e CSS
   - [x] Button Creator javaScript
-  - [ ] LocalStorage 
+  - [x] LocalStorage 
   
 </p>
 </details> 
