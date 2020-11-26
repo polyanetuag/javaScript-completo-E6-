@@ -97,6 +97,15 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>JavaScript Assíncrono</summary>
 <p>
 
+  - [x] JavaScript Assíncrono
+  - [x] Promises
+  - [ ] Fetch
+  - [ ] JSON
+  - [ ] API e HTTP
+  - [ ] Async Await
+  - [ ] History API
+  - [ ] Animais Fetch
+  - [ ] Bitcoin Fetch
   
 </p>
 </details> 
