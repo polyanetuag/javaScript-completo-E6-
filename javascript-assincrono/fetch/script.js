@@ -20,3 +20,15 @@ cep.then(r => r.json())
 })
 
 
+// Injetando css através de uma requisição fetch
+
+const cor = fetch('./style.css')
+
+cor.then(r => r.text())
+.then(body => {
+  const conteudo = document.querySelector('.conteudo');
+  const style = document.createElement('style')
+  style.innerHTML = body
+  conteudo.appendChild(style);
+})
+
