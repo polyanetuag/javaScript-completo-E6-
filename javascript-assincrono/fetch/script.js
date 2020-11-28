@@ -1,34 +1,11 @@
-const doc = fetch('./doc.txt');
+// injetando uma página HTML através de uma requisição fetch
 
-doc.then(resolucao => {
-  return resolucao.text();
-}).then((body) => {
-  const conteudo = document.querySelector('.conteudo');
-  conteudo.innerText = body
-})
+const sobre = fetch('./sobre.html');
 
+const div = document.createElement('div')
 
-// Usando uma API DE CEP
-
-const cep = fetch('https://viacep.com.br/ws/01001000/json/')
-
-cep.then(r => r.json())
+sobre.then(r => r.text())
 .then(body => {
-  console.log(body.logradouro)
-  //const conteudo = document.querySelector('.conteudo');
-  //conteudo.innerText = body.logradouro
+  div.innerHTML = body;
+  console.log(div)
 })
-
-
-// Injetando css através de uma requisição fetch
-
-const cor = fetch('./style.css')
-
-cor.then(r => r.text())
-.then(body => {
-  const conteudo = document.querySelector('.conteudo');
-  const style = document.createElement('style')
-  style.innerHTML = body
-  conteudo.appendChild(style);
-})
-
