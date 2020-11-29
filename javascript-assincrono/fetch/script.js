@@ -1,11 +1,10 @@
-// injetando uma página HTML através de uma requisição fetch
+// Blob - transforma requisições de imagens,por exemplo
+// requisição via fetch de imagem 
+const imagem  = fetch('./imagem.png');
 
-const sobre = fetch('./sobre.html');
-
-const div = document.createElement('div')
-
-sobre.then(r => r.text())
+imagem.then(r => r.blob())
 .then(body => {
-  div.innerHTML = body;
-  console.log(div)
-})
+  const blobUrl = URL.createObjectURL(body);
+  const imagemDom = document.querySelector('img')
+  imagemDom.src = blobUrl
+});
