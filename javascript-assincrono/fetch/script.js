@@ -1,10 +1,16 @@
-// Blob - transforma requisições de imagens,por exemplo
-// requisição via fetch de imagem 
-const imagem  = fetch('./imagem.png');
+// Clone() - clonando e transformando uma resposta em diferentes valores 
+const cep = fetch('https://viacep.com.br/ws/01001000/json/');
 
-imagem.then(r => r.blob())
+cep.then(r => {
+  const r2 = r.clone();
+  r.text().then((text) => {       // transformou em texto
+    console.log(text);
+  })
+  r2.json().then((json) => {      // tarnsformou em objeto
+    console.log(json)
+  })
+  console.log(r)
+})
 .then(body => {
-  const blobUrl = URL.createObjectURL(body);
-  const imagemDom = document.querySelector('img')
-  imagemDom.src = blobUrl
+  console.log(body);
 });
