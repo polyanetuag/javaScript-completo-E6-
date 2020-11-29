@@ -1,9 +1,11 @@
-// .headers - É uma propriedade que possui os cabeçalhos da requisição. 
-//É um tipo de dado iterável então podemos utilizar o forEach para vermos cada um deles.
+// .status - Retorna o status da requisição. 
+//Se foi 404, 200, 202 e mais. ok retorna um valor booleano sendo true para uma requisição de sucesso e false para uma sem sucesso.
 
-const cep = fetch('https://viacep.com.br/ws/01001000/json/');
+const cep = fetch('./docs');        // página não existe
 
 cep.then(response => {
-  console.log(response);
-  response.headers.forEach(console.log);
-})
+  console.log(response.status);
+  if(response.status === 404) {
+    console.log('Essa página não existe!')
+  }
+});
