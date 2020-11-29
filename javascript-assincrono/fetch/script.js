@@ -1,16 +1,9 @@
-// Clone() - clonando e transformando uma resposta em diferentes valores 
+// .headers - É uma propriedade que possui os cabeçalhos da requisição. 
+//É um tipo de dado iterável então podemos utilizar o forEach para vermos cada um deles.
+
 const cep = fetch('https://viacep.com.br/ws/01001000/json/');
 
-cep.then(r => {
-  const r2 = r.clone();
-  r.text().then((text) => {       // transformou em texto
-    console.log(text);
-  })
-  r2.json().then((json) => {      // tarnsformou em objeto
-    console.log(json)
-  })
-  console.log(r)
+cep.then(response => {
+  console.log(response);
+  response.headers.forEach(console.log);
 })
-.then(body => {
-  console.log(body);
-});
