@@ -100,7 +100,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] JavaScript Assíncrono
   - [x] Promises
   - [x] Fetch
-  - [ ] JSON
+  - [x] JSON
   - [ ] API e HTTP
   - [ ] Async Await
   - [ ] History API
