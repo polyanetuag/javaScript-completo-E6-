@@ -101,7 +101,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Promises
   - [x] Fetch
   - [x] JSON
-  - [ ] API e HTTP
+  - [x] API e HTTP
   - [ ] Async Await
   - [ ] History API
   - [ ] Animais Fetch
