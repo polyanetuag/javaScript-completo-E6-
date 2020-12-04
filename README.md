@@ -102,7 +102,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Fetch
   - [x] JSON
   - [x] API e HTTP
-  - [ ] Async Await
+  - [x] Async Await
   - [ ] History API
   - [ ] Animais Fetch
   - [ ] Bitcoin Fetch
