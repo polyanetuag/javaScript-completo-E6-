@@ -105,7 +105,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Async Await
   - [x] History API
   - [x] Animais Fetch
-  - [ ] Bitcoin Fetch
+  - [x] Bitcoin Fetch
   
 </p>
 </details> 
