@@ -113,6 +113,10 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Classes</summary>
 <p>
 
+  - [x] Classes  
+  - [ ] Get e Set
+  - [ ] Extends
+  - [ ] Countdown
   
 </p>
 </details> 
