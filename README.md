@@ -114,7 +114,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <p>
 
   - [x] Classes  
-  - [ ] Get e Set
+  - [x] Get e Set
   - [ ] Extends
   - [ ] Countdown
   
