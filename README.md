@@ -115,7 +115,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 
   - [x] Classes  
   - [x] Get e Set
-  - [ ] Extends
+  - [x] Extends
   - [ ] Countdown
   
 </p>
