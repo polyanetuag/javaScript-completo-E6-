@@ -124,6 +124,12 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Mais JS</summary>
 <p>
 
+  - [x] Function Expression  
+  - [ ] Factory Function
+  - [ ] Clojures e Debugging
+  - [ ] Destructuring
+  - [ ] Rest e Spread
+  - [ ] Loops e Iterable
   
 </p>
 </details> 
