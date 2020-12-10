@@ -127,7 +127,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Function Expression  
   - [x] Factory Function
   - [x] Clojures e Debugging
-  - [ ] Destructuring
+  - [x] Destructuring
   - [ ] Rest e Spread
   - [ ] Loops e Iterable
   
