@@ -129,7 +129,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Clojures e Debugging
   - [x] Destructuring
   - [x] Rest e Spread
-  - [ ] Loops e Iterable
+  - [x] Loops e Iterable
   
 </p>
 </details> 
