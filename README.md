@@ -137,6 +137,12 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Regular Expression</summary>
 <p>
 
+  - [ ] Regexp Seleção
+  - [ ] Regexp Substituição
+  - [ ] Regexp Padrões
+  - [ ] Regexp Métodos
+  - [ ] Limpar CPF
+  - [ ] Validar CPF
   
 </p>
 </details> 
