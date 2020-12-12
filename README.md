@@ -139,7 +139,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 
   - [x] Regexp Seleção
   - [x] Regexp Substituição
-  - [ ] Regexp Padrões
+  - [x] Regexp Padrões
   - [ ] Regexp Métodos
   - [ ] Limpar CPF
   - [ ] Validar CPF
