@@ -138,7 +138,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <p>
 
   - [x] Regexp Seleção
-  - [ ] Regexp Substituição
+  - [x] Regexp Substituição
   - [ ] Regexp Padrões
   - [ ] Regexp Métodos
   - [ ] Limpar CPF
