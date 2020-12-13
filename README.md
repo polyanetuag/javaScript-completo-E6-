@@ -142,7 +142,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Regexp Padrões
   - [x] Regexp Métodos
   - [x] Exercício 1 - Limpar CPF
-  - [ ] Exercício 2 - Validar CPF
+  - [x] Exercício 2 - Validar CPF
   
 </p>
 </details> 
