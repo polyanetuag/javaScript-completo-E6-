@@ -150,12 +150,12 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Automação Front End</summary>
 <p>
 
-    - [x] Linha de comando
-    - [ ] NPM
-    - [ ] ESLint
-    - [ ] Webpack
-    - [ ] Babel
-    - [ ] Git
+  - [x] Linha de comando
+  - [x] NPM
+  - [ ] ESLint
+  - [ ] Webpack
+  - [ ] Babel
+  - [ ] Git
 
 </p>
 </details> 
