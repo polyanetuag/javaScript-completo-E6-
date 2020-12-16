@@ -150,7 +150,13 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Automação Front End</summary>
 <p>
 
-  
+    - [x] Linha de comando
+    - [ ] NPM
+    - [ ] ESLint
+    - [ ] Webpack
+    - [ ] Babel
+    - [ ] Git
+
 </p>
 </details> 
 
@@ -167,16 +173,6 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   
 </p>
 </details> 
-
-<!-- - Objetos (constructor functions, prototype, Array, Math, String e mais)
-- Efeitos no DOM (Modules, event bubble, setTimeout, forms e mais)
-- JavaScript Assíncrono (Promisses, Fetch(novo AJAX), JSON, API, HTTP, Async/Await e mais)
-- Classes (class, constructor, get, set, extends e mais)
-- Mais JS ( IIFE, factory function, clojures, debbugging, destructuring, rest, iterables)
-- Regular Expression (Principais padrões e métodos)
-- Automação Front End (CLI, NPM, ESLint, Webpack, Babel e Git)
-- Projeto Final (Refatoracão do projeto utilizando classes; Praticando com Git, ESLint e mais)
-- Slide (Criação do plugin de slide) -->
 
 
 
