@@ -1,0 +1,17 @@
+{
+  "name": "animais-eslint",
+  "version": "1.0.0",
+  "main": "aula_data-object.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {},
+  "description": ""
+}
