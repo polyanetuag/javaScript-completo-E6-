@@ -11,10 +11,10 @@ export default function initAnimaNumeros() {
         start += incremento;
         numero.innerText = start;
         if (start > total) {
-          numero.innerText = total;// para dar corretamente o valor corretamente
+          numero.innerText = total; // para dar corretamente o valor corretamente
           clearInterval(timer);
         }
-      }, 25);//* Math.random() - para animar de forma aleatoria
+      }, 25); //* Math.random() - para animar de forma aleatoria
     });
   }
   let observer;
@@ -24,8 +24,8 @@ export default function initAnimaNumeros() {
       animaNumeros();
     }
   }
-  observer = new MutationObserver(handleMutation);
 
+  observer = new MutationObserver(handleMutation);
   const observerTarget = document.querySelector('.numeros');
 
   observer.observe(observerTarget, { attributes: true });

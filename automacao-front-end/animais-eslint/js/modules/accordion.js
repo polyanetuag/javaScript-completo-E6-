@@ -8,7 +8,6 @@ export default function initAccordion() {
     // eslint-disable-next-line max-len
     this.nextElementSibling.classList.toggle(activeClass);// o this faz referencia ao item que está sendo selecionado
   }
-
   if (accordionList.length) { // verificar se existe
     accordionList[0].classList.add(activeClass); // começar o primeiro item aberto
     accordionList[0].nextElementSibling.classList.add(activeClass);
