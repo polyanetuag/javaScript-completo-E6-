@@ -160,8 +160,23 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 </p>
 </details> 
 
-<details><summary>Projeto Final</summary>
+<details><summary>Projeto Final - Refatoração</summary>
 <p>
+
+  - [ ] Git
+  - [ ] Scroll suave
+  - [ ] Accordion
+  - [ ] Tabnav
+  - [ ] Modal
+  - [ ] Tooltip
+  - [ ] Anima números
+  - [ ] Fetch animais
+  - [ ] Fetch bitcoin
+  - [ ] Animação scroll
+  - [ ] Debounce
+  - [ ] Dropdown menu
+  - [ ] Menu mobile
+  - [ ] Refatorar funcionamento
 
   
 </p>
