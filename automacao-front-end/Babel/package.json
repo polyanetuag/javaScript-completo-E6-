@@ -1,0 +1,35 @@
+{
+  "name": "javascript-completo-e6-",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\" style=\"color:#8745ec\"><strong>JavaScript Completo ES6+</strong></h1><br>",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyanetuag/javaScript-completo-E6-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polyanetuag/javaScript-completo-E6-/issues"
+  },
+  "homepage": "https://github.com/polyanetuag/javaScript-completo-E6-#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "cli": "^1.0.1",
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "whatwg-fetch": "^3.5.0"
+  }
+}
