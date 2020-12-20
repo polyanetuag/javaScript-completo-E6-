@@ -154,7 +154,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] NPM
   - [x] ESLint
   - [x] Webpack
-  - [ ] Babel
+  - [x] Babel
   - [ ] Git
 
 </p>
