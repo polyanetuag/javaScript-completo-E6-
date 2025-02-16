@@ -6,7 +6,7 @@
 
 <!-- ## 📚 Sobre -->
 
-O curso **javaScript Completo ES6** irá abordar tudo o que é necessário para dominar a linguagem JavaScript. Vai do básico ao avançado e ao final dele você terá uma compreensão total da linguagem, dos seus principais métodos e da sua sintaxe.
+O curso **JavaScript Completo ES6** irá abordar tudo o que é necessário para dominar a linguagem JavaScript. Vai do básico ao avançado e ao final dele você terá uma compreensão total da linguagem, dos seus principais métodos e da sua sintaxe.
 
 O foco é no aprendizado da linguagem, mas o principal local de aplicação será na web, através de manipulações do **DOM** e requisições via fetch API.
 
