@@ -163,10 +163,10 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
 <details><summary>Projeto Final - Refatoração</summary>
 <p>
 
-  - [ ] Git
-  - [ ] Scroll suave
-  - [ ] Accordion
-  - [ ] Tabnav
+  - [x] Git
+  - [x] Scroll suave
+  - [x] Accordion
+  - [x] Tabnav
   - [ ] Modal
   - [ ] Tooltip
   - [ ] Anima números
