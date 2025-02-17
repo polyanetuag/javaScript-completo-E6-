@@ -167,10 +167,10 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Scroll suave
   - [x] Accordion
   - [x] Tabnav
-  - [ ] Modal
-  - [ ] Tooltip
-  - [ ] Anima números
-  - [ ] Fetch animais
+  - [x] Modal
+  - [x] Tooltip
+  - [x] Anima números
+  - [x] Fetch animais
   - [ ] Fetch bitcoin
   - [ ] Animação scroll
   - [ ] Debounce
