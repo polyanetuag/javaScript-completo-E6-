@@ -171,9 +171,9 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Tooltip
   - [x] Anima números
   - [x] Fetch animais
-  - [ ] Fetch bitcoin
-  - [ ] Animação scroll
-  - [ ] Debounce
+  - [x] Fetch bitcoin
+  - [x] Animação scroll
+  - [x] Debounce
   - [ ] Dropdown menu
   - [ ] Menu mobile
   - [ ] Refatorar funcionamento
