@@ -174,7 +174,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Fetch bitcoin
   - [x] Animação scroll
   - [x] Debounce
-  - [ ] Dropdown menu
+  - [x] Dropdown menu
   - [ ] Menu mobile
   - [ ] Refatorar funcionamento
 
