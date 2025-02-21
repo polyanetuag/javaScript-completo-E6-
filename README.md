@@ -176,7 +176,7 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Debounce
   - [x] Dropdown menu
   - [x] Menu mobile
-  - [ ] Refatorar funcionamento
+  - [x] Refatorar funcionamento
 
   
 </p>
