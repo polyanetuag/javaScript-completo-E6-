@@ -177,8 +177,6 @@ O foco é no aprendizado da linguagem, mas o principal local de aplicação ser�
   - [x] Dropdown menu
   - [x] Menu mobile
   - [x] Refatorar funcionamento
-
-  
 </p>
 </details> 
 
