@@ -3,7 +3,6 @@
 
 
 <h2 style="color:#b38cee">📚 Sobre</h2>
-e
 <!-- ## 📚 Sobre -->
 
 O curso **JavaScript Completo ES6** irá abordar tudo o que é necessário para dominar a linguagem **JavaScript**. Vai do básico ao avançado e ao final dele você terá uma compreensão total da linguagem, dos seus principais métodos e da sua sintaxe.
