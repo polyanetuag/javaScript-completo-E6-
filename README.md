@@ -18,9 +18,7 @@ O foco é o aprendizado da linguagem javascript, mas o principal local de aplica
 
 <details><summary>Introdução</summary>
 <p>
-
 - [x] Linguagem e configuração do ambiente
-  
 </p>
 </details> 
 
