@@ -50,7 +50,7 @@ O foco é o aprendizado da linguagem javascript, mas o principal local de aplica
   - [x] Transversing e Manipulação
   - [x] Navegação por Tabs
   - [x] Accordion List
-  - [x] Scroll Suave - link interno
+  - [x] Scroll Suave (link interno)
   - [x] Animação ao Scroll
 </p>
 </details> 
